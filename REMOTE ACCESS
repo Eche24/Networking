@@ -1,0 +1,10 @@
+SSH -  allow secure shell login, remote program execution, simple file sharing. Replace Telnet and rlogin.
+SSH protocol - OpenSSH. OpenSSH client program is ssh and the server is sshd.
+
+SSH Benefits.
+- Encrypts your password and all other session data.
+- Tunnels other network connection.(Tunneling(port forwarding). Is a protocol that allows the secure movement of data from one network to another.)
+- Uses Keys for host authentication.
+
+SSH Disadvantage.
+- remote host public key are not got in a secure way.

@@ -1,0 +1,43 @@
+20 - File Transfer Protocol – Data (TCP)
+21 - File Transfer Protocol – Control (TCP) (Listens on this port)
+22 - SSH (TCP)
+23 - Telnet (TCP)
+25 - Simple Mail Transfer Protocol (TCP)
+53 - Domain Name Service (TCP/UDP)
+69 - Trivial File Transfer Protocol (UDP)
+80 - HTTP/WWW (TCP)
+110 - Post Office Protocol 3 (TCP)
+119 - Network News Transfer Protocol (TCP)
+123 - Network Time Protocol (UDP)
+161/162 - Simple Network Management Protocol (UDP)
+443 - HTTP over Secure Sockets Layer (HTTPS) (TCP)
+67,68 - DHCP (Dynamic Host Control Protocol)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TCP
+(protocol 6) reliable, sequenced connection-oriented delivery, 20-byte header.
+UDP
+(protocol 17) connectionless, unsequenced best effort delivery, 8-byte header. Sends data but does not check to see if it is received.
+Telnet
+used to connect to a remote device (TCP). A password and username are required to connect. Telnet tests all seven layers of the OSI model.
+FTP
+Connection orientated (TCP) protocol used to transfer large files.
+TFTP
+connectionless (UDP) protocol used for file transfer.
+SNMP
+allows remote management of network devices.
+ICMP
+supports packets containing error, control and informational messages. Ping uses ICMP to test network connectivity.

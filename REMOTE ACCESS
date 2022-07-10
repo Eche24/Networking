@@ -1,4 +1,5 @@
 SSH -  allow secure shell login, remote program execution, simple file sharing. Replace Telnet and rlogin.
+Port Number - 22
 SSH protocol - OpenSSH. OpenSSH client program is ssh and the server is sshd.
 
 SSH Benefits.
